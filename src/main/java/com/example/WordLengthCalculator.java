@@ -3,16 +3,16 @@ package com.example;
 import java.util.Scanner;
 
 public class WordLengthCalculator {
-	    public static void main(String[] args) {
-		            Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-			            System.out.print("Enter a word: ");
-				            String inputWord = scanner.nextLine();
+        System.out.print("Enter a word: ");
+        String inputWord = scanner.nextLine();
 
-					            int wordLength = inputWord.length();
+        int wordLength = inputWord.length();
 
-						            System.out.println("Length of the word is: " + wordLength);
+        System.out.println("Length of the word is: " + wordLength);
 
-							            scanner.close();
-								        }
+        scanner.close();
+    }
 }
